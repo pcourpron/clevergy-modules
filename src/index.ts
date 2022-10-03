@@ -1,1 +1,1 @@
-export * from './components';
+export { Tips } from "./modules";

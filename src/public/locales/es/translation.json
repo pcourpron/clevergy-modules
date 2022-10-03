@@ -1,0 +1,145 @@
+{
+  "error": "Algo ha fallado",
+  "tips": {
+    "util": "¿Te ha parecido útil?",
+    "thanks": "¡Gracias por su respuesta!",
+    "HOT_WATER": "Agua caliente",
+    "HEATING": "Calefacción",
+    "AC": "A/C",
+    "FRIDGE": "Frigorífico",
+    "FREEZER": "Congelador",
+    "OVEN": "Horno",
+    "CERAMIC": "Vitro o inducción",
+    "WASHING_MACHINE": "Lavadora",
+    "DRYER": "Secadora",
+    "DISHWASHER": "Lavavajillas",
+    "TV": "TV",
+    "COMPUTER": "Ordenadores",
+    "POWER": "Potencia contratada"
+  },
+  "onboarding": {
+    "next": "Siguiente",
+    "app": "Accede a la app",
+    "steps": {
+      "1": {
+        "title": "Entiende tu consumo",
+        "description1": "¿Es justo lo que pagas por tu factura?",
+        "description2": "¿Puedes ahorrar? ¿Cómo?",
+        "description3": "¡Estas son algunas de las preguntas que podrás responder gracias a tu nueva app de Clevergy!"
+      },
+      "2": {
+        "title": "Identifica de dónde sale",
+        "description": "Cada parte de tu casa consume una cantidad distinta de energía. Con nuestro algoritmo, somos capaces de identificar los principales electrodomésticos y ayudarte a reducir en tu factura."
+      },
+      "3": {
+        "title": "Mejora tu hogar con dispositivos inteligentes",
+        "description": "Poner la lavadora a las 2 de la mañana no siempre es la solución. Gracias a nuestro marketplace especializado, te recomendaremos sólo aquellos dispositivos que se encajen a tu perfil."
+      }
+    }
+  },
+  "consumption": {
+    "title": "Tu consumo"
+  },
+  "granularity": {
+    "hourly": "Día",
+    "daily": "Mes",
+    "monthly": "Año",
+    "hourlyEmptyState": {
+      "title": "¿No encuentras lo que buscas?",
+      "description": "Nuestro algoritmo muestra tus datos en las pestañas mes y año",
+      "button": "Mostrar mes"
+    }
+  },
+  "disaggregation": {
+    "title": "Tu consumo explicado",
+    "subTitle": "Gasto estimado",
+    "devices": "Equipos",
+    "userPower": "Potencia Contratada",
+    "totalConsumption": "Consumo Total "
+  },
+  "user-settings": {
+    "before-starting": {
+      "title": "Tipo de vivienda",
+      "house-explanation": "Las personas que residen en tu hogar y la superficie de ésta nos permiten ofrecer una estimación mucho más precisa de tu hogar."
+    },
+    "people": {
+      "title": "Residentes y superficie"
+    },
+    "home-devices": {
+      "title": "Equipos en tu hogar",
+      "content": "Dispositivos actuales en tu hogar"
+    },
+    "rate": {
+      "title": "Tarifa contratada"
+    },
+    "save": "Guardar cambios",
+    "flat": "Piso",
+    "home": "Vivienda Unifamiliar",
+    "postalCode": "Código postal",
+    "settings_button": "Ajustes",
+    "start_button": "Comenzar",
+    "start_title": "Conoce más",
+    "start_text": "Nuestro algoritmo necesita un poco de ayuda para ofrecerte más detalles de tu consumo"
+  },
+  "profiler": {
+    "title": "Compárate con casas similares",
+    "profiles": {
+      "top_saver": "¡Eres la leche!",
+      "saver": "Lo estás haciendo genial",
+      "medium": "Vas por buen camino",
+      "can_improve": "Puedes mejorar",
+      "undefined": "No hay suficientes datos"
+    },
+    "modal": {
+      "title": "¿Cómo mejorar tu consumo?",
+      "main": "Compara la eficiencia del consumo de tu casa con hogares similares para saber cuánto puedes mejorar tu consumo. Nos basamos en el tamaño, número de personas, electrodomésticos que usas y la ubicación.",
+      "assign": "Te asignamos un color de acuerdo a tu consumo",
+      "description1": "Sigue así, estás en el top 15% de consumidores",
+      "description2": "Unos pocos cambios pueden marcar la diferencia en tu ahorro",
+      "description3": "Ánimo, sigue nuestras recomendaciones para optimizar tu consumo",
+      "description4": "Ojo, tu consumo es muy alto comparado con hogares similares. Con cambios ahorrarás en tu factura."
+    },
+    "message": {
+      "top_saver": {
+        "first": "¡Enhorabuena! ",
+        "bold": "Gastas {{kpiMargin}}€ menos ",
+        "second": "que otros hogares similares."
+      },
+      "saver": {
+        "first": "Si sigues así puedes ",
+        "bold": "gastar {{kpiMargin}}€ menos ",
+        "second": "que otros hogares similares."
+      },
+      "medium": {
+        "first": "",
+        "bold": "Puedes gastar hasta {{kpiMargin}}€ menos ",
+        "second": "en la factura del próximo mes."
+      },
+      "can_improve": {
+        "first": "Si te esfuerzas ",
+        "bold": "puedes gastar hasta {{kpiMargin}}€ menos ",
+        "second": "en la factura del próximo mes."
+      }
+    }
+  },
+  "common": {
+    "months": {
+      "0": "Enero",
+      "1": "Febrero",
+      "2": "Marzo",
+      "3": "Abril",
+      "4": "Mayo",
+      "5": "Junio",
+      "6": "Julio",
+      "7": "Agosto",
+      "8": "Septiembre",
+      "9": "Octubre",
+      "10": "Noviembre",
+      "11": "Diciembre"
+    }
+  },
+  "FLAT": "Tarifa plana",
+  "REGULATED": "Regulada",
+  "NIGHT": "Tarifa Noche",
+  "OTHER": "Otra \n No lo sé"
+}
