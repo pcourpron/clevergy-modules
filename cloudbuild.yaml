@@ -1,0 +1,15 @@
+steps:
+  - name: node
+    entrypoint: npm
+    args: ["install", "-force"]
+  - name: node
+    entrypoint: npm
+    args: [ "run", "test", "--", "--watchAll=false" ]
+  - name: node
+    entrypoint: npm
+    args: ["run", "build"]
+  - name: "gcr.io/cloud-builders/gsutil"
+    args: ["cp", "./build/static/js/main.js", gs://clevergy-scripts/main.js]
+  - name: "gcr.io/cloud-builders/gsutil"
+    args:
+      ["cp", "./build/static/css/main.css", "gs://clevergy-scripts/main.css"]

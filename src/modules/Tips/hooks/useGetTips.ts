@@ -12,13 +12,16 @@ export const useGetTip = ({ cups }: { cups: string }) => {
       },
     ],
     async () => {
-      const result = await clevergySdk?.getTip({ payload: { cups } });
-      if (result?.outcome === "FAILURE") {
+      try {
+        const result = await clevergySdk?.getTip({ payload: { cups } });
+        return result;
+      } catch (e) {
         throw new Error("Get tip failure");
-      } else return result?.data;
+      }
     },
     {
       staleTime: 0,
+      enabled: !!cups,
     }
   );
 };

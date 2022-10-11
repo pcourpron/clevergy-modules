@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { FC } from "react";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { clevergyPostMessage } from "../../utils/postMessage";
+import { clevergyPostMessage } from "../../utils/postMesssage";
 import { Feedback } from "./components/Feedback";
 import { useGetTip } from "./hooks/useGetTips";
 import { useUpdateTip } from "./hooks/useUpdateTips";

@@ -1,6 +1,5 @@
 import { buildClevergyApiSdk, ClevergySdk } from "clevergy-sdk";
 import { createContext, FC, ReactNode } from "react";
-import { clevergySdk } from "../modules/Tips/api";
 
 export const RoutesContext = createContext<{ clevergySdk?: ClevergySdk }>({});
 

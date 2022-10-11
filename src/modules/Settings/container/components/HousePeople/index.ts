@@ -1,0 +1,1 @@
+export { HousePeople } from "./People";
